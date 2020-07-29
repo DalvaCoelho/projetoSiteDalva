@@ -1,0 +1,50 @@
+
+#imagemPrincipal{
+    height:300px;
+    width: 100%;
+    object-fit: cover;
+}
+.imagensProdutos{
+    height:250px;
+    width: 400px;
+    object-fit: cover;
+}
+#NomeEmpresa{
+    color:#5c5462;
+    font-size:50px;
+    text-align: left;
+    
+}
+
+#NProdutos{
+    background-color:#332f35 ;
+    color: white;
+    padding:10px;  
+    text-align: center;  
+}
+
+.produtos{
+    color:#5c5462;
+}
+
+#colunasTitulo{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+#colunasProdutos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap:1px;
+}
+
+div{
+    height: 35px;
+}
+
+a{
+    font-size:25px;   
+}
